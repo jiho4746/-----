@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>innerHTML</title>
+	<script>
+		function doInnerPrompt(){
+			var n = prompt("HTML 텍스트 혹은 그냥 텍스트를 입력하세요.");
+			var m = document.getElementById("n");
+			m.innerHTML = n;
+		}
+	</script>
+</head>
+
+<body>
+	<h1>20200769 박지호</h1>
+	<h3>innerHTML</h3>
+	<hr>
+	<p id="n" onclick="doInnerPrompt()">이번 여름에는 어디로 여행을 갈까요?</p>
+	<!-- text : 푸른 바다 제주도로 가요!!! -->
+	<!-- text : 푸른 바다 <span style="background: deepskyblue">제주도</span>로 갑시다 -->
+</body>
+</html>

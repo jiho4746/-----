@@ -1,0 +1,10 @@
+body{background-color:aliceblue;}
+h2{text-align:center; color:darkred;}
+p{text-indent:1em; font:1em 휴먼편지체;}
+#list{padding:10px; margin:10px; background: mistyrose; font-family:휴먼편지체;}
+#plus{padding:10px; height:25px; border-radius:50px; margin:3px; background:orange; font-family:휴먼편지체;}
+#list1{color:blue; font-family: 맑은고딕;}
+#list2{color:blue; font-family: 맑은고딕;}
+#list3{color:blue; font-family: 맑은고딕;}
+#list4{color:blue; font-family: 맑은고딕;}
+#list5{color:blue; font-family: 맑은고딕;}

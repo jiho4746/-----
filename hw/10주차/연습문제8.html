@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>eval()</title>
+	<script>
+		function EvalInt(n){
+			var m = eval(n);
+			document.write(n + "=" + m);
+		}
+	</script>
+</head>
+
+<body>
+	<script>
+		document.write("<h1>20200769 박지호</h1>");
+		document.write("<h3>eval()로 수식 계산</h3><hr>");
+
+		var n = prompt("수식 입력", "");
+		EvalInt(n);
+	</script>
+</body>
+</html>
